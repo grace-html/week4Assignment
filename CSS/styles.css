@@ -1,0 +1,57 @@
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+div.container{
+  border: 5px solid red;
+  width: 80%;
+  margin: 0 auto 0 auto;
+}
+header{
+  background-color: burlywood;
+}
+.hero img{
+  width: 100%;
+}
+div.left, div.middle, div.right{
+  border: 3px dotted green;
+  width: 30%;
+}
+
+aside img{
+  width: 100%;
+}
+
+aside{
+ display: flex;
+ justify-content: space-between;
+}
+
+nav{
+  background-color: dimgray;
+
+}
+
+ul{
+  text-align: center;
+
+}
+
+li{
+  display: inline-block;
+  width: 115px;
+  line-height: 3em;
+  border: 2px solid white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-variant: small-caps;
+
+}
+a{
+  color: aliceblue;
+  text-decoration: none;
+  border: 1px solid red;
+  display: block;
+
+}
